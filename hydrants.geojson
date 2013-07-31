@@ -1,6 +1,4 @@
- { "type" : "FeatureCollection",
-    {"features" : [
-         { "type" : "Feature",
+ { "type" : "FeatureCollection","features" : [     { "type" : "Feature",
             "geometry" : {
                 "type" : "Point",
                 "coordinates" : ["36.063804","-95.882277"]},
@@ -97205,7 +97203,7 @@
                 "type" : "Point",
                 "coordinates" : ["36.082999","-95.959208"]},
         "properties" : { "name" : "2224 E 55th PL S", "value" : "1179"}
-        },
+        }
          ]
 }
     
