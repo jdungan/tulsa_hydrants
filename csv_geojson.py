@@ -18,7 +18,7 @@ template = \
 # the head of the geojson file
 output = \
     ''' \
-{ "type" : "Feature Collection",
+{ "type" : "FeatureCollection",
     {"features" : [
     '''
  

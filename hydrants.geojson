@@ -1,4 +1,4 @@
- { "type" : "Feature Collection",
+ { "type" : "FeatureCollection",
     {"features" : [
          { "type" : "Feature",
         "id" : 00559-0014,
