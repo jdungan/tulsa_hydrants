@@ -7,6 +7,7 @@ rawData = csv.reader(open('hydrants.csv', 'rb'), dialect='excel')
 template = \
     ''' \
     { "type" : "Feature",
+        "id" : %s,
             "geometry" : {
                 "type" : "Point",
                 "coordinates" : ["%s","%s"]},
@@ -15,11 +16,7 @@ template = \
     '''
  
 # the head of the geojson file
-output = \
-    ''' \
-{ "type" : "FeatureCollection",
-    {"features" : [
-    '''
+output = ''' { "type" : "FeatureCollection","features" : ['''
  
 #  lat 30
 #  lng 18
@@ -34,7 +31,7 @@ for row in rawData:
         lng = row[18]
         name = row[29]
         pop = row[2]
-        output += template % (lat, lng, name, pop)
+        output += template % (id, lat, lng, name, pop)
  
 # the tail of the geojson file
 output += \
