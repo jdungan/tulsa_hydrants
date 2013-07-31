@@ -30,7 +30,7 @@ iter = 0
 for row in rawData:
     iter += 1
     if iter >= 2:
-        id = row[11]
+        id = row[17]
         lat = row[30]
         lng = row[18]
         name = row[29]
