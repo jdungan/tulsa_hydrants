@@ -9,4 +9,6 @@ The resulting file was put into TileMill and uploaded to Mapbox.
 
 Results are at: http://a.tiles.mapbox.com/v3/jdungan.TFDD.html
 
-csv_geojson converts csv to geojson -- very simple, very hardcoded_
+csv_geojson converts csv to geojson -- very simple, very hardcoded, you even have to remove the last comma
+
+but... it works.  check out the hydrants.geojson file automajically displayed by Mapbox.
