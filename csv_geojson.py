@@ -30,7 +30,7 @@ for row in rawData:
         lng = row[18]
         name = row[29]
         pop = row[2]
-        output += template % (lat, lng, name, pop)
+        output += template % (lng, lat, name, pop)
  
 # the tail of the geojson file
 output += \
